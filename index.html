@@ -1,0 +1,106 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Steven Beijer</title>
+  <meta name="description" content="Steven Beijer – links">
+  <style>
+    :root {
+      --bg: #f6f5f2;
+      --card: #ffffff;
+      --text: #1f2328;
+      --muted: #5b6168;
+      --accent: #1f6feb;
+      --accent-text: #ffffff;
+      --border: #e3e1dc;
+    }
+    @media (prefers-color-scheme: dark) {
+      :root {
+        --bg: #14161a;
+        --card: #1c1f24;
+        --text: #e8e6e3;
+        --muted: #9aa0a6;
+        --accent: #4c8dff;
+        --accent-text: #0b0d10;
+        --border: #2c3036;
+      }
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      min-height: 100vh;
+      display: grid;
+      place-items: center;
+      padding: 24px 16px;
+      background: var(--bg);
+      color: var(--text);
+      font-family: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+    }
+    main {
+      width: 100%;
+      max-width: 420px;
+      text-align: center;
+    }
+    h1 {
+      margin: 0 0 6px;
+      font-size: 2rem;
+      letter-spacing: -0.01em;
+    }
+    .tagline {
+      margin: 0 0 28px;
+      color: var(--muted);
+    }
+    nav {
+      display: flex;
+      flex-direction: column;
+      gap: 12px;
+    }
+    nav a {
+      display: block;
+      padding: 14px 18px;
+      border-radius: 10px;
+      background: var(--card);
+      border: 1px solid var(--border);
+      color: var(--text);
+      text-decoration: none;
+      font-weight: 600;
+      transition: transform .1s ease, border-color .1s ease;
+    }
+    nav a:hover, nav a:focus-visible {
+      border-color: var(--accent);
+      transform: translateY(-1px);
+      outline: none;
+    }
+    nav a.primary {
+      background: var(--accent);
+      border-color: var(--accent);
+      color: var(--accent-text);
+    }
+    footer {
+      margin-top: 36px;
+      font-size: .85rem;
+      color: var(--muted);
+    }
+  </style>
+</head>
+<body>
+  <main>
+    <h1>Steven Beijer</h1>
+    <p class="tagline">Welcome – find me here:</p>
+
+    <!--
+      To add a button, copy one <a> line and change the address and the label.
+      class="primary" makes a button blue; use it for the most important one.
+    -->
+    <nav>
+      <a class="primary" href="https://www.proz.com/profile/104658">ProZ.com profile</a>
+      <!-- <a href="https://www.linkedin.com/in/CHANGE-ME/">LinkedIn</a> -->
+      <!-- <a href="mailto:CHANGE-ME@example.com">Email me</a> -->
+    </nav>
+
+    <footer>&copy; <span id="y">2026</span> Steven Beijer</footer>
+  </main>
+  <script>document.getElementById('y').textContent = new Date().getFullYear();</script>
+</body>
+</html>
