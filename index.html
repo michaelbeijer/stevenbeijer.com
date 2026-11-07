@@ -3,104 +3,192 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Steven Beijer</title>
-  <meta name="description" content="Steven Beijer – links">
-  <style>
-    :root {
-      --bg: #f6f5f2;
-      --card: #ffffff;
-      --text: #1f2328;
-      --muted: #5b6168;
-      --accent: #1f6feb;
-      --accent-text: #ffffff;
-      --border: #e3e1dc;
-    }
-    @media (prefers-color-scheme: dark) {
-      :root {
-        --bg: #14161a;
-        --card: #1c1f24;
-        --text: #e8e6e3;
-        --muted: #9aa0a6;
-        --accent: #4c8dff;
-        --accent-text: #0b0d10;
-        --border: #2c3036;
-      }
-    }
-    * { box-sizing: border-box; }
-    body {
-      margin: 0;
-      min-height: 100vh;
-      display: grid;
-      place-items: center;
-      padding: 24px 16px;
-      background: var(--bg);
-      color: var(--text);
-      font-family: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
-    }
-    main {
-      width: 100%;
-      max-width: 420px;
-      text-align: center;
-    }
-    h1 {
-      margin: 0 0 6px;
-      font-size: 2rem;
-      letter-spacing: -0.01em;
-    }
-    .tagline {
-      margin: 0 0 28px;
-      color: var(--muted);
-    }
-    nav {
-      display: flex;
-      flex-direction: column;
-      gap: 12px;
-    }
-    nav a {
-      display: block;
-      padding: 14px 18px;
-      border-radius: 10px;
-      background: var(--card);
-      border: 1px solid var(--border);
-      color: var(--text);
-      text-decoration: none;
-      font-weight: 600;
-      transition: transform .1s ease, border-color .1s ease;
-    }
-    nav a:hover, nav a:focus-visible {
-      border-color: var(--accent);
-      transform: translateY(-1px);
-      outline: none;
-    }
-    nav a.primary {
-      background: var(--accent);
-      border-color: var(--accent);
-      color: var(--accent-text);
-    }
-    footer {
-      margin-top: 36px;
-      font-size: .85rem;
-      color: var(--muted);
-    }
-  </style>
+  <title>in the loop translations – Steven A.J. Beijer, Dutch to English translator</title>
+  <meta name="description" content="Classic, fully human Dutch to English translation, editing, localisation and copywriting by Steven A.J. Beijer, based in Barcelona.">
+  <meta property="og:title" content="in the loop translations – Steven A.J. Beijer">
+  <meta property="og:description" content="Translation by a real person. A human in the loop.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://stevenbeijer.com/">
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Sora:wght@400;600;700&amp;family=Inter:wght@400;500;600&amp;display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <main>
-    <h1>Steven Beijer</h1>
-    <p class="tagline">Welcome – find me here:</p>
 
-    <!--
-      To add a button, copy one <a> line and change the address and the label.
-      class="primary" makes a button blue; use it for the most important one.
-    -->
-    <nav>
-      <a class="primary" href="https://www.proz.com/profile/104658">ProZ.com profile</a>
-      <!-- <a href="https://www.linkedin.com/in/CHANGE-ME/">LinkedIn</a> -->
-      <!-- <a href="mailto:CHANGE-ME@example.com">Email me</a> -->
-    </nav>
+<header class="site-header">
+  <nav class="wrap" aria-label="Main">
+    <a class="logo" href="#top" aria-label="in the loop translations, home">
+      <span class="logo-name">in the loop</span>
+      <svg width="124" height="16" viewBox="0 0 260 34" aria-hidden="true"><path d="M2 26 H96 C122 26 132 6 118 4 C104 2 104 26 134 26 H258" fill="none" stroke="#E2553A" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+      <span class="logo-sub">TRANSLATIONS</span>
+    </a>
+    <div class="menu">
+      <a href="#approach">Approach</a>
+      <a href="#services">Services</a>
+      <a href="#how">How it works</a>
+      <a href="#about">About</a>
+      <a href="examples.html">Examples</a>
+      <a class="btn btn-dark btn-small" href="mailto:stevenajbeijer@gmail.com?subject=Quote%20request">Request a quote</a>
+    </div>
+  </nav>
+</header>
 
-    <footer>&copy; <span id="y">2026</span> Steven Beijer</footer>
-  </main>
-  <script>document.getElementById('y').textContent = new Date().getFullYear();</script>
+<main>
+
+<section id="top" class="wrap hero">
+  <div class="hero-text">
+    <p class="eyebrow">Dutch → English · around 20 years' experience</p>
+    <h1>Translation by a real person. <span class="accent">A human in the loop.</span></h1>
+    <p class="lead">I'm Steven A.J. Beijer, a Dutch-English translator in Barcelona. Classic, fully human translation is still at the heart of what I do, from the first sentence to the last.</p>
+    <div class="buttons">
+      <a class="btn btn-dark" href="mailto:stevenajbeijer@gmail.com?subject=Quote%20request">Request a quote</a>
+      <a class="btn btn-outline" href="#approach">See my approach</a>
+    </div>
+  </div>
+  <div class="hero-art">
+    <svg viewBox="0 0 420 320" role="img" aria-label="A single line looping between a Dutch and an English speech bubble">
+      <rect x="10" y="30" width="170" height="110" rx="24" fill="#F3F4F7"/>
+      <rect x="240" y="180" width="170" height="110" rx="24" fill="#18213A"/>
+      <text x="38" y="72" font-family="Sora, sans-serif" font-weight="700" font-size="22" fill="#18213A">NL</text>
+      <rect x="38" y="88" width="100" height="10" rx="5" fill="#18213A"/>
+      <rect x="38" y="108" width="70" height="10" rx="5" fill="#9AA1B2"/>
+      <text x="268" y="222" font-family="Sora, sans-serif" font-weight="700" font-size="22" fill="#FFFFFF">EN</text>
+      <rect x="268" y="238" width="110" height="10" rx="5" fill="#FFFFFF"/>
+      <rect x="268" y="258" width="80" height="10" rx="5" fill="#9AA1B2"/>
+      <path d="M95 140 C95 210 150 225 200 200 C245 178 225 130 195 145 C165 160 185 235 240 235" fill="none" stroke="#E2553A" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/>
+    </svg>
+  </div>
+</section>
+
+<section id="approach" class="dark">
+  <div class="wrap approach">
+    <div class="section-head">
+      <p class="eyebrow">My approach</p>
+      <h2 class="h2 h2-big">The human in the loop</h2>
+      <p class="intro">Whatever the project, a person reads, weighs and shapes every sentence. That person is me. I'm <a href="https://open.spotify.com/search/Daft%20Punk%20Human%20After%20All" target="_blank" rel="noopener" title="Daft Punk, Human After All (2005)">human after all</a>.</p>
+    </div>
+    <div class="cards">
+      <div class="card-dark">
+        <span class="num">01</span>
+        <h3>Classic translation, done by hand</h3>
+        <p>Your text translated the traditional way, start to finish by me. If your workflow uses modern translation tools, I'm at home there too.</p>
+      </div>
+      <div class="card-dark">
+        <span class="num">02</span>
+        <h3>Tuned to how people talk now</h3>
+        <p>I keep a close ear on online culture, informal usage and new turns of phrase, so your English sounds current, not like a textbook.</p>
+      </div>
+      <div class="card-dark">
+        <span class="num">03</span>
+        <h3>Natural English, not translationese</h3>
+        <p>Nothing lost in translation. Just text that reads as if it were written in English in the first place.</p>
+      </div>
+    </div>
+    <p class="quote">“Every word read, weighed and chosen by a person. That's what being in the loop means.”</p>
+    <a class="btn btn-light" href="examples.html">See examples</a>
+  </div>
+</section>
+
+<section id="services" class="soft">
+  <div class="wrap services">
+    <div class="section-head">
+      <h2 class="h2">What I do</h2>
+      <p>Translation, editing and original English copy for agencies and companies in a wide range of sectors.</p>
+    </div>
+    <div class="cards-light">
+      <div class="card">
+        <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="#E2553A" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 5h7"/><path d="M9 3v2c0 4.4-2.2 8-5 9"/><path d="M5 9c0 2.1 2.7 4 6 4.5"/><path d="M12 20l4-9 4 9"/><path d="M19.1 18h-6.2"/></svg>
+        <h3>Translation</h3>
+        <p>Classic, fully human translation from Dutch into clear, natural English that keeps your meaning and your tone.</p>
+      </div>
+      <div class="card">
+        <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="#E2553A" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 20h4L18.5 9.5a2.8 2.8 0 0 0-4-4L4 16v4"/><path d="M13.5 6.5l4 4"/></svg>
+        <h3>Revision and editing</h3>
+        <p>A careful second pair of eyes for accuracy, consistency, tone and style.</p>
+      </div>
+      <div class="card">
+        <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="#E2553A" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M3.6 9h16.8"/><path d="M3.6 15h16.8"/><path d="M11.5 3a17 17 0 0 0 0 18"/><path d="M12.5 3a17 17 0 0 1 0 18"/></svg>
+        <h3>Localisation</h3>
+        <p>Websites, apps and marketing copy that feel at home with English-speaking audiences.</p>
+      </div>
+      <div class="card">
+        <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="#E2553A" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M7 7h10v10H7z"/><path d="M10 3v4"/><path d="M14 3v4"/><path d="M10 17v4"/><path d="M14 17v4"/><path d="M3 10h4"/><path d="M3 14h4"/><path d="M17 10h4"/><path d="M17 14h4"/></svg>
+        <h3>MT post-editing</h3>
+        <p>Machine output turned into English you can publish, in modern translation and post-editing environments.</p>
+      </div>
+      <div class="card">
+        <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="#E2553A" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 6h16"/><path d="M4 10h16"/><path d="M4 14h10"/><path d="M4 18h7"/><path d="M15 19l1-3 4-4 2 2-4 4z"/></svg>
+        <h3>Copywriting and content</h3>
+        <p>Original English copy and content for websites, campaigns and social media, written to land, not just to be correct.</p>
+      </div>
+    </div>
+    <div class="chips">
+      <span class="chips-label">Language pair:</span>
+      <span class="chip">Dutch → English</span>
+    </div>
+    <div class="chips">
+      <span class="chips-label">Sectors I work in:</span>
+      <span class="chip">Public sector and government</span>
+      <span class="chip">Research and science</span>
+      <span class="chip">Museums and culture</span>
+      <span class="chip">Health and social services</span>
+    </div>
+  </div>
+</section>
+
+<section id="how" class="wrap how">
+  <h2 class="h2">How it works</h2>
+  <ol class="steps">
+    <li>
+      <span class="num">01</span>
+      <h3>Send your files</h3>
+      <p>Email me your documents and your deadline.</p>
+    </li>
+    <li>
+      <span class="num">02</span>
+      <h3>Get a clear quote</h3>
+      <p>You'll get a price and delivery date before any work starts. No plot twists.</p>
+    </li>
+    <li>
+      <span class="num">03</span>
+      <h3>Stay in the loop</h3>
+      <p>I'll flag any questions along the way and deliver on time, ready to use.</p>
+    </li>
+  </ol>
+</section>
+
+<section id="about" class="soft">
+  <div class="wrap about">
+    <div class="about-photo">
+      <img src="images/steven.jpg" alt="Steven A.J. Beijer outdoors by a mountain stream" width="300" height="346" loading="lazy">
+    </div>
+    <div class="about-text">
+      <h2 class="h2">Call me Steven</h2>
+      <p>For around 20 years I've worked with translation agencies and companies across a wide range of sectors. I've kept up as the industry has changed, but what makes a translation good hasn't: curiosity, care and a real love of playing with language. A background in copywriting and content creation means I translate for how a text lands, not just for what it says.</p>
+      <p>I'm based in Barcelona and always keen to build long-term working relationships with reliable partners. References and a CV are available on request.</p>
+      <a class="text-link" href="https://www.proz.com/profile/104658">View my ProZ.com profile</a>
+    </div>
+  </div>
+</section>
+
+<section id="contact" class="wrap contact">
+  <h2 class="h2 h2-big">Need Dutch-English support? <span class="accent">Let's loop you in.</span></h2>
+  <p>Send me your files or a quick question. I reply within office hours, 10:00–18:00 CET.</p>
+  <a class="btn btn-dark btn-large" href="mailto:stevenajbeijer@gmail.com?subject=Quote%20request">stevenajbeijer@gmail.com</a>
+  <p class="place">Barcelona, Spain</p>
+</section>
+
+</main>
+
+<footer class="site-footer">
+  <div class="wrap">
+    <span>© <span id="y">2026</span> Steven A.J. Beijer · in the loop translations · Made by a human, after all</span>
+    <a href="https://www.proz.com/profile/104658">ProZ.com profile</a>
+  </div>
+</footer>
+
+<script>document.getElementById('y').textContent = new Date().getFullYear();</script>
 </body>
 </html>
