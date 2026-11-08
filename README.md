@@ -17,3 +17,4 @@ Website for Steven A.J. Beijer – "in the loop translations". Plain HTML, no bu
 - New example: copy one `<article class="example">…</article>` block in `examples.html` and change the text.
 - Accent colour: change `--accent` at the top of `style.css` (design alternatives: `#0F7C7A`, `#2F5BEA`, `#C8902A`), and the `#E2553A` in the inline SVGs.
 - Email address: search for `stevenajbeijer@gmail.com` – it appears in several buttons on both pages.
+- After changing `style.css`, raise the number in `style.css?v=…` in both `index.html` and `examples.html`, so visitors' browsers load the new styles instead of an old cached copy.
