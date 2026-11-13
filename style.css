@@ -93,6 +93,9 @@ p { margin: 0; }
 .dark .eyebrow { color: var(--on-dark-muted); }
 .approach .intro { font-size: 1.15rem; line-height: 1.7; color: var(--on-dark); }
 .approach .intro a { text-decoration-color: var(--accent); text-decoration-thickness: 2px; text-underline-offset: 4px; }
+.definition { background: var(--ink-2); border-left: 4px solid var(--accent); border-radius: 0 12px 12px 0; padding: 20px 24px; display: flex; flex-direction: column; gap: 6px; }
+.definition-title { font-family: var(--sora); font-weight: 600; font-size: 1rem; color: #FFFFFF; }
+.definition p:not(.definition-title) { font-size: 0.98rem; line-height: 1.6; color: var(--on-dark); }
 .cards { display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 24px; }
 .card-dark { background: var(--ink-2); border-radius: 20px; padding: 32px; display: flex; flex-direction: column; gap: 14px; }
 .icon { fill: none; stroke: var(--accent); stroke-width: 1.8; stroke-linecap: round; stroke-linejoin: round; flex-shrink: 0; }
